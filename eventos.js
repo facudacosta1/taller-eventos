@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function(){
-    document.getElementById("boton-saludar").onclick = function(){
-        mostrarAlerta();
-    };
-    
-    function mostrarAlerta(){
-        alert("Hola!");
+    document.getElementById("div-boton").onclick = function(){
+        mostrarSaludo();
     }
 });
+
+function mostrarSaludo(){
+    alert("Hola! Soy el div")
+};
